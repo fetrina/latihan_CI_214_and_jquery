@@ -1,6 +1,4 @@
-<!-- Latihan Buku CI & Jquery | Halaman 21-22
-	 BAB 2.3 Memahami Konsep MVC
--->
+<!-- Latihan Buku CI & jQuery | Halaman 21-22 | BAB 2.3 Memahami Konsep MVC  -->
 
 <html lang="id">
   <head>

@@ -1,7 +1,8 @@
 <!-- Latihan Buku CI & Jquery | Halaman 24-25
-     BAB 2.4 Operasi Create
+     BAB 2.4.3 Operasi Create
 -->
 
+<!--View Form Input-->
 <html lang="id">
   <head>
       <title>Latihan CI - MVC database</title>

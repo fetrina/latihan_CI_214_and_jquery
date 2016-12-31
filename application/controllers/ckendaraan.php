@@ -1,6 +1,6 @@
+<!-- Latihan Buku CI & Jquery | Halaman 20-21 | BAB 2.3 Memahami Konsep MVC  -->
+
 <?php 
-//Latihan Buku CI & Jquery | Halaman 20-21
-// BAB 2.3 Memahami Konsep MVC
 
 class Ckendaraan extends CI_Controller {
 
