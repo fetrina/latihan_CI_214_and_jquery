@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e14ba21e-d806-405f-b09f-4d0afe3e669d" name="Default" comment="Penambahan fitur Read Data">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/images/cal.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/images/cal_close.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/images/cal_fastforward.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/images/cal_fastreverse.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/images/cal_forward.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/images/cal_minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/images/cal_plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/images/cal_reverse.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/images/rfnetlogo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Catetan_project, ket folder, config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/cdatepicker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/ckomentar2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/ctab.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/mkomentar2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/datepicker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/ubahkomentar2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/vkomentar2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/vtab.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/datetimepicker_css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/demo_datetimepicker_test.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/datepicker/rfnet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.tools.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tabs-2.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/ckomentar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/mkomentar.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/views/tambahkomentar.php" afterPath="$PROJECT_DIR$/application/views/tambahkomentar2.php" />
+    <list default="true" id="e14ba21e-d806-405f-b09f-4d0afe3e669d" name="Default" comment="code CI &amp; jQuery">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="latihan_CI_214_jquery.iws" />
@@ -50,12 +23,12 @@
     <favorites_list name="latihan_CI_214_jquery" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ctab.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/ctab.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30769232">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -64,8 +37,18 @@
       <file leaf-file-name="ckomentar2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/ckomentar2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21441442">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5207207">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vtab.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/vtab.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -118,7 +101,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>UnusedPHP</id>
+            <id>HTML</id>
           </State>
         </selected-state>
       </profile-state>
@@ -149,8 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,33 +164,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="latihan_CI_214_jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="latihan_CI_214_jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/.gitconfig" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
-    <property name="settings.editor.splitter.proportion" value="0.21645446" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.splitter.proportion" value="0.21819961" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -258,14 +223,20 @@
       <option name="project" value="LOCAL" />
       <updated>1483180742489</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Penambahan code CI &amp; jQuery">
+      <created>1485769683317</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1485769683317</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17057101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17057101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -299,13 +270,38 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Penambahan fitur Read Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Penambahan fitur Read Data" />
+    <MESSAGE value="Penambahan code CI &amp; jQuery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Penambahan code CI &amp; jQuery" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/controllers/ctab.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/ckomentar2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/vtab.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/mkendaraan.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -350,16 +346,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ctab.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30769232">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/vtab.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ckomentar2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21441442">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5207207">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding />
         </state>
       </provider>
