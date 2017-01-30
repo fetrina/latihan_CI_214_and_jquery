@@ -1,0 +1,54 @@
+==== Latihan Buku CI & Jquery ====
+
+------ Step By Step menggunakan Codeigniter pertama kali ---------
+
+-Konfigurasi config.php 
+Pada folder application/config, dlmnya ubah base_url dgn localhost/nama_foldermu
+Misal jadi -> $config['base_url'] = 'http://localhost/latihan_CI_214_jquery'
+
+-konfigurasi database
+setting db hostname = localhost, username = root
+
+-Latihan bikin controller --> ex: controler belajar.php
+-Latihan bikin View --> ex: controler buku.php , viewnya buku1.php dan penulis2.php
+-Latihan MVC tanpa database --> ex: model  mkendaraan.php, controler ckendaraan.php, view vkendaraan.php
+
+-konfigurasi autoload.php
+Di folder apliaction/config, ubah jadi
+$autoload['libraries'] = array();
+$autoload['helper'] = array();
+
+-Konfigurasi database.php untuk MVC, 
+Di folder application/config, databasenya isi dgn nama databasemu. Misal
+$db['default']['database'] = 'latihan_cijquery';
+$db['default']['dbdriver'] = 'mysql';
+
+-Latihan bikin MVC pake database, Coba jalanin controller di browser. 
+Klo ada error maslah enkripsi, brti ada yg musti diedit di config/config.php
+Misal isi yg didalam tanda petik satu disini --> $config['encryption_key'] = '';
+
+
+------- Contoh MVC dengan Database --------
+
+- Bikin MVC untuk insert data. Filenya: mkomentar, ckomentar, tambahkomentar
+- Bikin MVC untuk insert, view, update data. Filenya: mkomentar2, ckomentar2, tambahkomentar2, vkomentar2, ubahkomentar2
+
+------- Contoh CI dengan jQuery -------
+
+1. Conton jquery, dlm konsep Controller View. Filenya : cdatepicker.php, ctab.php
+2. COntoh
+
+
+==== Coding di IDE ===
+
+1.Coba pake IDE Phpstorm untuk tempat ngodingnya (popular dikalangan dev php, di 2016) 
+2.Pakai Versioning, misal Github (login di web klo dah punya akun).
+3.Jgn lupa install git versi client di desktop jg
+Cara untuk koneksi phpstorm ke github
+-Buka Phpstorm, Ctrl+Alt+S, klik Version Control, klik Git. 
+Setting Path to Git = C:\Users\Admin\AppData\Local\GitHub\PortableGit_d7effa1a4a322478cd29c826b52a0c118ad3db11\cmd\git.exe
+-Masi di window version control, pilih Github, host = github.com | login = username kamu di web github | Pass = **********
+4. Cara upload project, klik VCs->Import Into Vers COntrol->Share project on Github
+5. Klo ada error innitial commit failed, please tell me who you are. Run git config--global user.email "youremail@example.com" git config --global user.name "Your Name"
+Ini bisa disetting dgn, buka Git cmd, lalu setting 2 itu dgn ketik perintah git config, isikan username githubmu dan email githubmu.
+6. Coba import lagi.

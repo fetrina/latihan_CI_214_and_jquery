@@ -11,7 +11,7 @@
   
     <h3>2.4 Tambah Data</h3>
     <?php
-    	echo form_open('ckomentar/tambahdata');
+    	echo form_open('ckomentar2/tambahdata');
     ?>
 
     <table>
