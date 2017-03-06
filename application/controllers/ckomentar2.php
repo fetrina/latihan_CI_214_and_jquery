@@ -9,7 +9,7 @@ class Ckomentar2 extends CI_Controller{ //coba jalankan http://localhost/latihan
 	//=== Memanggil view data tabelnya ===
 	function index(){
 		$this->load->model('mkomentar2'); //memanggil model mkomentar
-		$data['hasil']= $this->mkomentar2->ambil(); //hasil dri fungsi ambil, dimsukin ke variabel $data['hasil']
+		$data['hasil'] = $this->mkomentar2->ambil(); //hasil dri fungsi ambil, dimsukin ke variabel $data['hasil']. Kenapa namanya hasil, krn variabel di model yg pke $hasil
 												   //krn di file model datanya dikembalikan pd $hasil
 		$this->load->view('vkomentar2', $data);
 	}
@@ -32,7 +32,7 @@ class Ckomentar2 extends CI_Controller{ //coba jalankan http://localhost/latihan
 			$data['hasil'] = $this->mkomentar2->select($id); //u memanggil fungsi select($id) dlm model mkomentar
 			$this->load->view('ubahkomentar2', $data);	//u memanggil view ubahkomentar, dmn didalamnya tlah mngndung $data u mnmpilan data sesuai id yg terpilih. 
 		}
-		//Scrit dbwh ini u melakukan update data yg ada didatabase. 
+		//== Script dbwh ini u melakukan update data yg ada didatabase ==
 		else { //dilakukan sesi selanjutnya yaitu....
 			$this->load->model('mkomentar2');
 			$this->mkomentar2->update($id); //update data berdasar id

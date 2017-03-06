@@ -1,3 +1,7 @@
+<!-- Latihan Buku CI & Jquery | Halaman 67-69
+     BAB 4.3 Tab | 
+-->
+
 <?php
 class Ctab extends CI_Controller{
 	

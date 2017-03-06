@@ -47,6 +47,7 @@ class Mkomentar2 extends CI_Model{
 	function select($id){ // u mneciptakan function select
 		return $this->db->get_where('komentar', array('id' => $id))->row(); 
 		//u mnyeleksi/menampilkan data komentar berdasarkan id yg terpilih
+		//dan select data dalam row
 	}
 
 	//=== function untuk delete data ===

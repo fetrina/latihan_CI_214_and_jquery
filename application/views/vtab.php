@@ -7,9 +7,9 @@
   <head>
       <title>jQuery Tab</title>
       
-      <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>tabs-2.css">
-      <script type="text/javascript" src="<?php echo base_url();?>jquery.tools.min.js"></script>
-      <!--Di CI klo mau link js atau css, lwt src atau href, musti pake php echo base_url();nama_linknya -->
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>tabs/tabs-2.css">
+      <script type="text/javascript" src="<?php echo base_url();?>tabs/jquery.tools.min.js"></script>
+      <!--Di CI klo pgl link js atau css, lwt src atau href, musti pake php echo base_url();nama_filenya -->
 
       <script type="text/javascript">
         $(document).ready(function(){
